@@ -1,0 +1,429 @@
+@import url(http://allfont.ru/allfont.css?fonts=exo-20-thin);
+@import url(http://allfont.ru/allfont.css?fonts=exo-20-light);
+@import url(http://allfont.ru/allfont.css?fonts=exo-20-medium);
+
+.main-header {
+	height: 50px;
+	font-family: 'Exo 2.0 Light', arial;
+	display: flex;
+	align-items: center;
+}
+
+.main-header a:hover {
+	text-decoration: none;
+	cursor: pointer;
+	color: rgb(153, 204, 255);
+}
+
+.project {
+	font-size: 20px;
+}
+
+.logo {
+	color: rgb(153, 204, 255);
+	font-size: 20px;
+}
+
+.slogan {
+	font-size: 20px;
+}
+
+.header { 
+	position: relative;
+}
+
+.header-img {
+	width: 100%;
+}
+
+.header_img_caption {
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	text-align: center;
+}
+
+.header_img_caption_style {
+	color: #000000;
+	font-family: 'Exo 2.0 Thin', arial;
+	font-size: 80px;
+	background-color: rgba(153, 204, 255, 0.4);
+}
+	
+.btn-header {
+	font-family: 'Exo 2.0 Light', arial;
+	color: #000000;
+}
+
+.btn-header:hover {
+    background-color: rgba(153, 204, 255, 0.4);
+}
+
+.mini {
+	font-size: 60px;
+}
+
+.statistic, .advantages {
+	padding-bottom: 20px;
+}
+
+.col-circle, .col-quard {
+	padding-top: 20px;
+	padding-left: 0;
+	padding-right: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.circle {
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 2px solid #99ccff;
+	border-radius: 150px;
+	font-family: 'Exo 2.0 Light', arial;
+	color: #000000;
+	background: #99CCFF; 
+    background: linear-gradient(to top, #FFFFFF, #99CCFF);
+}
+
+.attention {
+	font-size: 33px;
+}
+
+.description {
+	font-size: 18px;
+}
+
+.block-down {
+	/*background-color: rgba(153, 204, 255, 0.4);*/
+	background: #99CCFF; 
+    background: linear-gradient(to top, #99CCFF, #FFFFFF);
+}
+
+.block-up {
+	/*background-color: rgba(153, 204, 255, 0.4);*/
+	background: #99CCFF; 
+    background: linear-gradient(to top, #FFFFFF, #99CCFF);
+}
+
+/*.about-us, .advantages {
+	text-align: center;
+	font-family: 'Exo 2.0 Light', arial;
+}*/
+
+.row-name {
+    text-align: center;
+	font-family: 'Exo 2.0 Light', arial;
+	/*font-size: 30px;*/
+}
+
+.attention-color {
+	color: #003399;
+}
+
+.underline {
+	border-bottom: 1px solid #336699;
+}
+
+.description-block {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.img-center {
+    text-align: center;
+}
+
+.description-img {
+	width: 250px;
+	border-bottom: 2px solid #336699;
+}
+
+.description-text {
+	font-size: 20px;
+	color: #003366;
+	text-align: justify;
+    font-family: 'Exo 2.0 Light', arial;
+}
+
+.info-frame {
+    width: 250px;
+    height: 300px;
+	border: 2px solid #99ccff;
+	border-radius: 20px;
+}
+
+.info-frame img {
+    width: 150px;
+}
+
+.info-frame-order {
+    text-align: center;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+
+.info-frame-style {
+	background: #99CCFF; 
+    background: linear-gradient(to top, #FFFFFF, #99CCFF);
+}
+
+.info-text {
+    font-family: 'Exo 2.0 Light', arial;
+    color: #000000;
+ }
+
+/*.blue-border {
+    border: 2px solid #99ccff;
+	border-radius: 20px;
+}
+
+.form-name {
+    font-family: 'Exo 2.0 Light', arial;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.form-name-size {
+    font-size: 20px;
+}*/
+
+.form-style {
+    font-family: 'Exo 2.0 Light', arial;
+    color: #000000;
+}
+
+.form-img {
+    width: 200px;
+}
+
+.content-row-center {
+    display: flex;
+	justify-content: center;
+}
+
+.img-left {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.img-right {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.ref {
+    cursor: pointer;
+}
+
+.relative {
+    position: relative;
+}
+
+.block_over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 495px) {	
+    .project {
+		font-size: 14px;
+	}
+
+	.logo {
+		color: rgb(153, 204, 255);
+		font-size: 14px;
+	}
+
+	.slogan {
+		font-size: 14px;
+	}
+    
+	.header_img_caption_style {
+		color: #000000;
+		font-family: 'Exo 2.0 Thin', arial;
+		font-size: 25px;
+	}
+	
+	.mini {
+		font-size: 20px;
+	}
+    
+    .circle {
+		width: 170px;
+		height: 170px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border: 2px solid #99ccff;
+		border-radius: 850px;
+		font-family: 'Exo 2.0 Light', arial;
+		color: #000000;
+		background: #99cccc; 
+		background: linear-gradient(to top, #FFFFFF, #99CCFF);
+	}
+	
+	.attention {
+		font-size: 25px;
+	}
+    
+    .info-frame .attention {
+		font-size: 20px;
+	}
+
+	.description {
+		font-size: 13px;
+	}
+    
+    .info-frame {
+        width: 170px;
+        height: 170px;
+        border: 2px solid #99ccff;
+        border-radius: 20px;
+    }
+    
+    .info-frame img {
+        width: 60px;
+    }
+
+    .info-text {
+        font-family: 'Exo 2.0 Light', arial;
+        color: #000000;
+    }
+	
+	.description-block {
+		padding: 20px;
+	}
+	
+	.description-text {
+		font-size: 15px;
+		color: #003366;
+		text-align: justify;
+		padding-top: 15px;
+	}
+}
+
+@media (min-width: 496px) and (max-width: 991px) {
+	.project {
+		font-size: 14px;
+	}
+
+	.logo {
+		color: rgb(153, 204, 255);
+		font-size: 14px;
+	}
+
+	.slogan {
+		font-size: 14px;
+	}
+	
+	.header_img_caption_style {
+		color: #000000;
+		font-family: 'Exo 2.0 Thin', arial;
+		font-size: 40px;
+	}
+	
+	.mini {
+		font-size: 30px;
+	}
+	
+	.circle {
+		width: 170px;
+		height: 170px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border: 2px solid #99ccff;
+		border-radius: 850px;
+		font-family: 'Exo 2.0 Light', arial;
+		color: #000000;
+		background: #99cccc; 
+		background: linear-gradient(to top, #FFFFFF, #99CCFF);
+	}
+	
+	.attention {
+		font-size: 25px;
+	}
+    
+    .info-frame .attention {
+		font-size: 20px;
+	}
+
+	.description {
+		font-size: 13px;
+	}
+	
+	.description-block {
+		padding: 20px;
+	}
+	
+	.description-text {
+		font-size: 20px;
+		color: #003366;
+		text-align: justify;
+		padding-top: 15px;
+	}
+    
+    .info-frame {
+        width: 170px;
+        height: 170px;
+        border: 2px solid #99ccff;
+        border-radius: 20px;
+    }
+    
+    .info-frame img {
+        width: 60px;
+    }
+
+    .info-text {
+        font-family: 'Exo 2.0 Light', arial;
+        color: #000000;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {	
+	.header_img_caption_style {
+		color: #000000;
+		font-family: 'Exo 2.0 Thin', arial;
+		font-size: 60px;
+	}
+	
+	.description-block {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		display: flex;
+		align-items: center;
+	}
+}
+
+@media (min-width: 1200px) {	
+	.header_img_caption_style {
+		color: #000000;
+		font-family: 'Exo 2.0 Thin', arial;
+		font-size: 60px;
+	}
+	
+	.description-block {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		display: flex;
+		align-items: center;
+	}
+    
+    /*.input-size-control {
+        width: 60%;
+        margin-left: 20%
+    }*/
+}
